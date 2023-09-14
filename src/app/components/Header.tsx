@@ -6,9 +6,9 @@ const Header = () => {
       <nav className='flex flex-col'>
         <h3 className='p-3 text-xl font-bold'>React Hooks</h3>
         <ul className='p-3 space-x-2 flex'>
-          <p className='hover:text-slate-500'><Link href={'/settings/useStateTest'}>useState</Link></p>
-          <p className='hover:text-slate-500'><Link href={'/'}>useEffect</Link></p>
-          <p className='hover:text-slate-500'><Link href={'/'}>useCallback</Link></p>
+          <p className='hover:text-slate-500'><Link href={'/hookTests/useStateTest'}>useState</Link></p>
+          <p className='hover:text-slate-500'><Link href={'/hookTests/useEffectTest'}>useEffect</Link></p>
+          <p className='hover:text-slate-500'><Link href={'/hookTests/useCallback'}>useCallback</Link></p>
         </ul>
       </nav>
     </header>
